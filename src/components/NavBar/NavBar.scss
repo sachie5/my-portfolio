@@ -1,0 +1,11 @@
+@use "../../styles/variables" as *;
+
+.header{
+
+    &__nav{
+        width: 50%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
