@@ -12,5 +12,13 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
+}
+
+.spectrum-background {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
 }

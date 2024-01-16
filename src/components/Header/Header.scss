@@ -2,10 +2,11 @@
 
 .header{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: $secondary-color;
-    color: $primary-color;
     padding: 10px 20px;
-    height: 20%;
+    height: 15vh;
+    
 }
