@@ -3,12 +3,11 @@ import "./Button.scss";
 type ButtonProps = {
     name: string;
     classname: string;
-    link: string;
 };
 
-const Button = ({name, classname, link}: ButtonProps) => {
+const Button = ({name, classname}: ButtonProps) => {
     return (
-        <a href={link} className={classname}>{name}</a>
+        <button className={classname}>{name}</button>
     )
 };
 

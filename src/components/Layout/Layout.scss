@@ -1,0 +1,10 @@
+@use "../../styles/variables" as *;
+
+.layout {
+    width: 90%;
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  

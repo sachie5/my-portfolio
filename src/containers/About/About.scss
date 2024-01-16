@@ -1,0 +1,33 @@
+@use "../../styles/variables" as *;
+
+.profile{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $secondary-color;
+    border-radius: 100px;
+
+        &__image{
+            width: 25%;
+            padding: 20px;
+        }
+
+        &__info{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            height: 100%;
+            width: 70%;
+            padding: 10px 40px;
+            color: $primary-color;
+
+            &--heading{
+                font-size: 2rem;
+            }
+
+            &--description{
+                font-size: 1.2rem;
+            }
+        }
+}

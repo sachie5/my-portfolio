@@ -1,0 +1,29 @@
+@use "../../styles/variables" as *;
+
+.home{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $secondary-color;
+    border-radius: 100px;
+
+    &__picture{
+        height: 60%;
+    }
+
+    &__info{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        &--heading{
+            font-size: 2rem;
+        }
+
+        &--message{
+            font-size: 1.5rem;;
+        }
+    }
+}

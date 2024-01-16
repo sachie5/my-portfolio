@@ -1,0 +1,49 @@
+@use "../../styles/variables" as *;
+
+.projects {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 60px 20px;
+    color: $background-color;
+    height: 100vh;
+
+    &__figure {
+        display: flex;
+        padding: 20px;
+        background-color: $secondary-color;
+        height: 50vh;
+    }
+
+    &__image{
+        width: 20rem;
+        height: 80;
+    }
+
+    &__skill {
+        font-size: 15px;
+    }
+
+    &__name {
+        font-size: 30px;
+    }
+
+    &__description{
+        font-size: 18px;
+        height: 8rem;
+    }
+    &__button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 7rem;
+    }
+
+    &__grid{
+        display: grid;
+        grid-template-rows: repeat(6 , 1fr);
+        gap: 30px;
+    }
+
+
+}
