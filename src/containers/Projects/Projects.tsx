@@ -7,8 +7,10 @@ import API from "../../assets/images/react-image.png";
 import DefaultImage from "../../assets/images/project-screenshot.jpg";
 import Layout from "../../components/Layout/Layout";
 
+
 const Projects = () => {
   return (
+    <Layout>
     <section className="projects">
       <div className="projects__grid">
         <figure className="projects__figure projects__grid--item1">
@@ -24,6 +26,7 @@ const Projects = () => {
               Created a working online Calculator using HTML, SCSS and
               TypeScript.
             </p>
+            <div className="button-container">
             <a
               target="_blank"
               href="https://github.com/sachie5/calculator-project"
@@ -48,6 +51,7 @@ const Projects = () => {
                 className="projects__button--image"
               />
             </a>
+            </div>
           </figcaption>
         </figure>
         <figure className="projects__figure projects__grid--item2">
@@ -63,6 +67,7 @@ const Projects = () => {
               A quiz game aimed at children at the end of Key Stage 2 to
               practice grammar and maths.
             </p>
+            <div className="button-container">
             <a
               target="_blank"
               href="https://github.com/sachie5/game-project"
@@ -87,6 +92,7 @@ const Projects = () => {
                 className="projects__button--image"
               />
             </a>
+            </div>
           </figcaption>
         </figure>
         <figure className="projects__figure projects__grid--item3">
@@ -102,6 +108,7 @@ const Projects = () => {
               A ticket tracker to keep track of completed tasks of a group of
               employees.
             </p>
+            <div className="button-container">
             <a
               target="_blank"
               href="https://github.com/sachie5/ticket-tracker-project"
@@ -126,6 +133,7 @@ const Projects = () => {
                 className="projects__button--image"
               />
             </a>
+            </div>
           </figcaption>
         </figure>
         <figure className="projects__figure projects__grid--item4">
@@ -140,6 +148,7 @@ const Projects = () => {
             <p className="projects__description">
               A website built using REACT using data obtained from an API.
             </p>
+            <div className="button-container">
             <a
               target="_blank"
               href="https://github.com/sachie5/react-punk-project"
@@ -164,6 +173,7 @@ const Projects = () => {
                 className="projects__button--image"
               />
             </a>
+            </div>
           </figcaption>
         </figure>
         <figure className="projects__figure projects__grid--item5">
@@ -178,6 +188,7 @@ const Projects = () => {
             <p className="projects__description">
               Create a management system for a company named Aperio Derma.
             </p>
+            <div className="button-container">
             <a target="_blank" href="#" className="projects__button">
               Code
               <img
@@ -194,6 +205,7 @@ const Projects = () => {
                 className="projects__button--image"
               />
             </a>
+            </div>
           </figcaption>
         </figure>
         <figure className="projects__figure projects__grid--item6">
@@ -206,6 +218,7 @@ const Projects = () => {
             <h4 className="projects__skill">Untitled Project</h4>
             <h5 className="projects__name">Untitled Project</h5>
             <p className="projects__description">New project loading...</p>
+            <div className="button-container">
             <a target="_blank" href="#" className="projects__button">
               Code
               <img
@@ -222,10 +235,12 @@ const Projects = () => {
                 className="projects__button--image"
               />
             </a>
+            </div>
           </figcaption>
         </figure>
       </div>
     </section>
+    </Layout>
   );
 };
 

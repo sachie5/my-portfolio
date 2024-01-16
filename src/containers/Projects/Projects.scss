@@ -10,33 +10,59 @@
 
     &__figure {
         display: flex;
+        align-items: center;
         padding: 20px;
-        background-color: $secondary-color;
         height: 50vh;
     }
 
     &__image{
         width: 20rem;
-        height: 80;
+        height: 60%;
+        opacity: 0.5;
+    }
+
+    &__image:hover{
+        opacity: 1;
+    }
+
+    &__caption{
+        display: flex;
+        flex-direction: column;
+        background-color: $secondary-color;
+        border-radius: 0 100px 100px 0;
+        padding: 10px 20px;
+        height: 80%;
+        width: 75%;
+        
     }
 
     &__skill {
-        font-size: 15px;
+        font-size: 25px;
+        margin: 10px 0;
     }
 
     &__name {
-        font-size: 30px;
+        font-size: 35px;
+        margin: 10px 0;
     }
 
     &__description{
-        font-size: 18px;
+        font-size: 20px;
         height: 8rem;
+        margin: 10px 0;
     }
+
     &__button {
         display: inline-flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 7rem;
+        width: 10rem;
+        margin-right: 15px;
+        border: 5px solid $background-color;
+        border-radius: 10px;
+        font-size: 18px;
+        color: $background-color;
+        padding: 7px;
     }
 
     &__grid{
@@ -46,4 +72,13 @@
     }
 
 
+}
+
+.button-container{
+    display: flex;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
 }
