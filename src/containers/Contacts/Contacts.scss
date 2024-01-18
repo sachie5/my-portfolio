@@ -1,0 +1,27 @@
+@use "../../styles/variables" as *;
+
+.contacts{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary-color;
+    border-radius: 100px;
+    width: 90vw;
+
+    &__image{
+        width: 20vw;
+        margin-bottom: 2rem;
+    }
+
+    &__email{
+        font-size: 2rem;
+    }
+}
+
+.contacts-container{
+   display: flex;
+
+   
+}

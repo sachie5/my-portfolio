@@ -8,6 +8,7 @@ import DefaultImage from "../../assets/images/project-screenshot.jpg";
 import Layout from "../../components/Layout/Layout";
 
 
+
 const Projects = () => {
   return (
     <Layout>

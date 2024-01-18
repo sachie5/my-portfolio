@@ -5,8 +5,9 @@ import Home from "./containers/Home/Home";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Projects from "./containers/Projects/Projects";
 import Skills from "./containers/Skills/Skills";
+import Contacts from "./containers/Contacts/Contacts";
 
-function App() {
+const App = () => {
   return (
     <HashRouter>
       <Header />
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/contacts" element={<Contacts/>} />
         </Routes>
       </main>
     </HashRouter>
